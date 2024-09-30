@@ -15,6 +15,7 @@ jobs:
     # See: https://circleci.com/docs/jobs-steps/#steps-overview & https://circleci.com/docs/configuration-reference/#steps
     steps:
       # Checkout the code as the first step.
+      - run: exit 1
       - checkout
       - run:
           name: "Say hello"
