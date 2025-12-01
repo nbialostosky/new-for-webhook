@@ -11,6 +11,7 @@ jobs:
       - image: cimg/base:current
     steps:
       - checkout
+      - run: sleep 1000
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
